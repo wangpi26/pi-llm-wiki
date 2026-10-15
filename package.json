@@ -1,5 +1,5 @@
 {
-  "name": "@zosmaai/pi-llm-wiki",
+  "name": "@wangpi26/pi-llm-wiki",
   "version": "0.6.3",
   "description": "Self-maintaining LLM Wiki for Pi \u2014 Karpathy-pattern knowledge base with immutable source capture, automated ingestion, search, linting, and Obsidian-compatible vault. auto-updating personal & company wiki.",
   "keywords": [
