@@ -39,12 +39,7 @@ export function applySessionStartStatus(opts: {
   // collapses them — same condition, same scope).
   if (!noticesEnabled(opts.runtime.config)) return;
 
-  opts.ui.setStatus(
-    "llm-wiki",
-    opts.trajectoriesOn
-      ? "🧠 LLM Wiki (16 tools, trajectory + observe + recall active)"
-      : "🧠 LLM Wiki (13 tools, observe + recall active)",
-  );
+  opts.ui.setStatus("llm-wiki", "🧠 LLM Wiki");
 
   const modelLabel = formatActiveModelLabel(opts.runtime.config, opts.sessionModelId);
   opts.ui.setStatus(MODEL_STATUS_KEY, `🧠 wiki model: ${modelLabel}`);
